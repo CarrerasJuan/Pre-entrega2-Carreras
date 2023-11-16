@@ -265,3 +265,17 @@ h5 {
   display: none;
 }
 }
+
+/* informacion */
+.info {
+  position: relative;
+  width: 100%;
+  height: 10%;
+  min-height: 10rem;
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, rgba(240, 233, 233, 0.3) 0%, rgba(67, 9, 75, 0.7) 30%, #000 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
