@@ -1,0 +1,38 @@
+/* ROPA FEMENINA */
+/*implemente bucle for en los h, (entiendo que puedo hacer que vaya de + en +, no estaba seguro de utilizar un mixin. Lo utilice en modo de practica)*/
+// coloque un & en la pseudo clase funciono muy bien.
+
+@for $i from 1 to 6 {
+  h#{$i} {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+}
+
+.about-section {
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  
+    p {
+      margin-bottom: 5rem;
+    }
+  }  
+  /* BOTONES */
+  
+  .btnMisslovely {
+    background-color: $color-rosa;
+    color: $color-black;
+  
+    &:hover {
+      background-color: $color-rosa;
+      color: #fafafa;
+    }
+  }
+  
+  .card {
+    padding: 3px;
+    border-radius: 1px;
+    border: solid black;
+  }

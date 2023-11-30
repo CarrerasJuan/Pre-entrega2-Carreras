@@ -1,0 +1,11 @@
+//MIXIN
+//tuve muchos problemas, se rompia mucho. Lo solucione cambiando de lugar el "mixin" de la hoja de estilo.scss.
+//Esta alojado en contacto, lo utilice para el input.
+
+@mixin arreglosMx {
+    top: 1px;
+    font-size: .8em;
+    background: $color-black;
+    padding: 0 6px;
+    color: $color-rosa;
+}

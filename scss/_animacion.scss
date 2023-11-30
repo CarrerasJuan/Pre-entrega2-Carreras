@@ -1,0 +1,19 @@
+//Animacion en el logo
+
+/* animacion */
+@keyframes animacion {
+    0% {
+      opacity: 100%;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .logo {
+    animation-name: animacion;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  }
+  

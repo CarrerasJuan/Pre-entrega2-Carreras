@@ -1,0 +1,51 @@
+/* informacion */
+
+//integre MIXIN con las caracteristicas margin y paddin.
+//Mejore las secciones que me remarco el tutor en la entrega anterior logre que las imagenes fueran responsive.
+//integre variables en los colores.
+
+.info {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, rgba(240, 233, 233, 0.3) 0%, rgba(67, 9, 75, 0.7) 30%, #000 100%);
+  }
+  
+  .seccion1, .seccion2 {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+  }
+  
+  .imgSeccion1, .imgSeccion2 {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
+    justify-content: center;
+  }
+  
+  .hSeccion {
+    color: $color-rosaclaro;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .hSeccion {
+      display: none;
+    }
+  }
+  
+  .mas {
+    background-color: $color-rosa;
+    color: #fafafa;
+    font-weight: 700px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    &:hover {
+      background-color: #fafafa;
+      color: $color-rosaclaro;
+      cursor: pointer;
+    }
+  }
+  
